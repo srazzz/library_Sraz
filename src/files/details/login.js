@@ -21,7 +21,8 @@ function LoginPage(){
             <form class="login-form">
                 <input type="text" placeholder="username" />
                 <input type="password" placeholder="password" />
-                <button onclick="location.href=librarypage.html"><a class = "buttonlogin" href="librarypage.html">login</a></button>
+                <button className= "buttonlogin " onclick="location.href=librarypage.html">login</button>
+                <br/><br/>
                 <p class="message">Not registered? <a href="register.html">Create an account</a></p>
             </form>
         </div>

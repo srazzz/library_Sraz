@@ -6,22 +6,21 @@ function Home() {
    
     return (
         <>
-            <nav className="navbar">
+            <nav   className="navbar">
                 <img src={logoimg} alt="rgukt logo" />
-                <ul className="nav-menu">
-                    <li className="nav-item">About</li>
-                    <li className="nav-item">Feedback</li>
-                    {/* navlink class li is in  */}
-                    <li className="nav-item">Register</li>
+                <ul   className="nav-menu">
+                    <li   className="nav-item">About</li>
+                    <li   className="nav-item">Feedback</li>
+                    {/* navlink   class li is in  */}
+                    <li   className="nav-item">Register</li>
                 </ul>
             </nav>
-            <div class="main">
-                <div class="content">
+            <div   className="main">
+                <div   className="content">
                     <h1>Welcome to RGUKT Library.....</h1>
                 </div>
-
                 <br />
-                <button type="submit " class="login_button " >LOGIN</button>
+                <button type="submit "   className="login_button " >LOGIN</button>
 
             </div></>
     )
