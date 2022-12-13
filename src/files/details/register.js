@@ -7,7 +7,7 @@ function Register(){
         <form>
             {/* Form to register into the library if they are new */}
             <h1>Register</h1>
-            <p>Please fill in this form to create an account.</p>
+           <br/>
 
             <label for="email"><b>College ID</b></label>
             <input type="text" name="username" placeholder="Enter your ID number" required/>
