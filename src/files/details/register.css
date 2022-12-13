@@ -4,7 +4,10 @@ body {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     background-color: #222121;
 }
-
+.error{
+    font-size: 12px;
+    color:red;
+}
 * {
     box-sizing: border-box
 }
@@ -23,7 +26,7 @@ label {
     margin-top: 50%;
     position: relative;
     transform: translate(-50%, -50%);
-    border: 1px solid #ccc;
+    border: 3px solid black;
     border-radius: 10px;
     background: rgb(255, 252, 252);
     -webkit-box-shadow: 2px 1px 21px -9px rgba(0, 0, 0, 0.38);
