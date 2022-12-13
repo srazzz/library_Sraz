@@ -1,9 +1,9 @@
 import React from 'react';
 import logoimg from './images/Logonew.png';
-import LoginPage from "./login"
-import About from './about';
+import LoginPage from "./details/login"
+import About from './details/about';
 import Contact from "./contact"
-import Register from './register';
+import Register from './details/register';
 // import bgimg from './images/libray2.jpg';
 function Home() {
    

@@ -1,3 +1,4 @@
+import React from 'react';
 function LibraryPage(){
     return(
         <div class="maincontainer">
