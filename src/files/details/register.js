@@ -1,5 +1,6 @@
 // This is the registration form when they don't have an account
 import React from 'react';
+import './register.css'
 function Register(){
     return(
         <div className="container">
@@ -26,9 +27,6 @@ function Register(){
                 <option value="66">+66</option>
             </select>
             <input type="phone" name="phone" placeholder="812345678" required/>
-
-            <p>By creating an account you agree to our <a href="a" >Terms & Privacy</a>.</p>
-            
             <div className="clearfix">
                 <a href="librarypage.html">
                 <button type="submit" className="btn">Sign Up</button></a>

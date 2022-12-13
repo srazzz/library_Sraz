@@ -1,5 +1,6 @@
 // displays the details of RGUKT
 import React from 'react';
+import './about.css'
 function About() {
     return (
         <>

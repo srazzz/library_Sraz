@@ -35,7 +35,9 @@ html {
 body{
   background: #202020;
 }
-
+.input-name{
+  color:whitesmoke;
+}
 .contact{
   display: flex;
   align-items: center;
@@ -77,7 +79,7 @@ label input, label textarea{
   padding: .75rem;
   font-size: 1rem;
   border-radius: .5rem;
-  color: #e5e5e5;
+  color: #0e0e0e;
   border: 1px solid transparent;
   transition: all .25s ease 0s
 

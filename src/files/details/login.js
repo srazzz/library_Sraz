@@ -4,9 +4,11 @@ import "./login.css"
 function LoginPage(){
     return (
         <>
+        <div className="whole-page">
         <div class="login-page">
         <div class="form">
             {/* register form  */}
+            <h1>LOGIN</h1>
             <form class="register-form">
                 <input type="text" placeholder="name" />
                 <input type="password" placeholder="password" />
@@ -23,7 +25,7 @@ function LoginPage(){
                 <p class="message">Not registered? <a href="register.html">Create an account</a></p>
             </form>
         </div>
-        </div>
+        </div></div>
         </>
     )
 }

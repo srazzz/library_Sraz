@@ -1,9 +1,6 @@
 import React from 'react';
 import logoimg from './images/Logonew.png';
-import LoginPage from "./details/login"
-import About from './details/about';
-import Contact from "./contact"
-import Register from './details/register';
+import './homepage.css'
 // import bgimg from './images/libray2.jpg';
 function Home() {
    
@@ -12,10 +9,10 @@ function Home() {
             <nav className="navbar">
                 <img src={logoimg} alt="rgukt logo" />
                 <ul className="nav-menu">
-                    <li className="nav-item"><a href={<About/>}>About</a></li>
-                    <li className="nav-item"><a href={<Contact/>}>Feedback</a></li>
+                    <li className="nav-item">About</li>
+                    <li className="nav-item">Feedback</li>
                     {/* navlink class li is in  */}
-                    <li className="nav-item"><a href={<Register/>}>Register</a></li>
+                    <li className="nav-item">Register</li>
                 </ul>
             </nav>
             <div class="main">
@@ -24,7 +21,7 @@ function Home() {
                 </div>
 
                 <br />
-                <button type="submit " class="login_button " ><a href={<LoginPage/>}>LOGIN</a> </button>
+                <button type="submit " class="login_button " >LOGIN</button>
 
             </div></>
     )

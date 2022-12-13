@@ -4,17 +4,14 @@
     box-sizing: border-box;
 }
 
-body {
-    overflow: hidden;
-}
 .content {
-
+    color:white;
    display: flex;
    justify-content: center;
    background-image: ur("./images/library2.jpg");
 }
 h1 {
-    color :white;
+    color :rgb(241, 237, 237);
     margin-left :8%;
     margin-top:15%;
 }
@@ -29,7 +26,6 @@ h1 {
     background-color:rgb(241, 236, 236);
     color:rgb(12, 12, 12);
     padding:1% 1% 1% 1%;
-    margin-left:45%;
     border-radius: 12px;
 }
 .login_button :hover {
