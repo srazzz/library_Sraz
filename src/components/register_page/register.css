@@ -17,22 +17,27 @@ h1{
 label {
     color:black;
 }
+.background{
+    background-image: url("../images/register.jpg");
+    
+}
 /* Add padding to container elements */
 .container {
     padding: 20px;
+    padding-top:0%;
     width: 500px;
     left: 40%;
     margin-left: 5%;
-    margin-top: 50%;
+    margin-top: 0%;
     position: relative;
     transform: translate(-50%, -50%);
     border: 3px solid black;
-    border-radius: 10px;
+    border-radius: 18px;
     background: rgb(255, 252, 252);
     -webkit-box-shadow: 2px 1px 21px -9px rgba(0, 0, 0, 0.38);
     -moz-box-shadow: 2px 1px 21px -9px rgba(0, 0, 0, 0.38);
     box-shadow: 2px 1px 21px -9px rgba(0, 0, 0, 0.38);
-
+    opacity:0.8;
 }
 
 /* Full-width input fields */

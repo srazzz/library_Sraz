@@ -1,6 +1,10 @@
 import React from 'react';
 import { useState } from "react";
 import "./login.css"
+/**
+ * this displays the login page with user id and password 
+ * @returns returns the page for branches if login success if not displays the error
+ */
 function LoginPage() {
     const initialValues = {idNumber: "" , password:""}
     const [formErrors, setFormErrors] = useState("")

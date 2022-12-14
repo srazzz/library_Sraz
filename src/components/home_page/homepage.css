@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    color:white;
+   display: flex;
+   justify-content: center;
+   background-image: url("../images/backgroundimage.png");
+}
+h1 {
+    color :rgb(241, 237, 237);
+    margin-left :8%;
+    margin-top:15%;
+    background-color: white;
+    border-radius: 12px;
+    opacity:0.8;
+    padding:1% 1% 1% 1%;
+}
+.main {
+    background-image:url("../images/backgroundimage.png") ;
+    height :100vh;
+    width:100vw;
+    margin:0;
+    justify-content: center;
+    color:blanchedalmond;
+}
+.login_button{
+    background-color:rgb(241, 236, 236);
+    color:rgb(12, 12, 12);
+    padding:1% 1% 1% 1%;
+    border-radius: 12px;
+    opacity:0.7;
+}
+.login_button:hover{
+    opacity:1;
+}
+.login_button :hover {
+    background-color: yellow;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 1rem 1.5rem;
+}
+.navbar img{
+    height:40px;
+}
+.nav-logo {
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 3rem;
+    color:white;
+}
+.nav-link {
+    font-size: 19px;
+    color: #b9b6b6; 
+}
+.nav-link:hover {
+    color: #1ae5f7;
+}
+.homepage_background{
+    width:100vw;
+    height:100vh;
+}

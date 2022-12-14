@@ -1,6 +1,10 @@
 import './about.css';
 import React from 'react';
 import imgthis from '../images/building.jpg'
+/**
+ * this function displays the details of RGUKT college (about RGUKT)
+ * @returns about page
+ */
 function About() {
     return (
         <>

@@ -2,6 +2,10 @@
 import React from 'react';
 import {useState} from 'react';
 import './register.css'
+/**
+ * displays the register page when user don't have an account
+ * @returns returns to the login page if all details are given properly
+ */
 function Register() {
     const initialValues = { idNumber: "", email: "",phone: "", password: "" ,password2: "" };
 	const [formValues, setFormValues] = useState(initialValues)
@@ -53,7 +57,8 @@ function Register() {
 	}
 
     return (
-        <div className='backgroung'>
+		<>
+        <div className='background'>
         <div className="container">
             <form >
                 {/* Form to register into the library if they are new */}
@@ -92,7 +97,7 @@ function Register() {
 
             </form> </div></div>
 
-
+			</>
     )
 }
 export default Register;
