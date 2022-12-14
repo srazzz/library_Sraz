@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState } from "react";
+// import LibraryPage from '../branches_page/librarypage';
 import "./login.css"
+
 /**
  * this displays the login page with user id and password 
  * @returns returns the page for branches if login success if not displays the error
@@ -38,11 +40,10 @@ function LoginPage() {
 
     const handleLogin = (event) => {
 		setFormErrors(validate(formValues))
-        console.log(validate(formValues))
 		event.preventDefault()
 		if(validate(formValues).length === 0){		//not working
 			setFormValues(initialValues)
-    
+            
 		}
 	}
     return (

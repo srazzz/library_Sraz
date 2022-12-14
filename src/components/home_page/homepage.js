@@ -1,6 +1,8 @@
 import React from 'react';
 import logoimg from '../images/Logonew.png';
 import '../home_page/homepage.css'
+import {Link} from 'react-router-dom'
+// import LibraryPage from '../branches_page/librarypage';
 // import bgimg from './images/libray2.jpg';
 /**
  * this dislays the homepage of site with about us ,feedback ,register in it.
@@ -13,10 +15,11 @@ function Home() {
             <nav   className="navbar">
                 <img src={logoimg} alt="rgukt logo" />
                 <ul   className="nav-menu">
-                    <li   className="nav-item">About</li>
-                    <li   className="nav-item">Feedback</li>
+                    <li   className="nav-item"><Link to="/about">About</Link></li>
+                    <li   className="nav-item"><Link to="Feedback">Feedback</Link></li>
                     {/* navlink   class li is in  */}
-                    <li   className="nav-item">Register</li>
+                    <li   className="nav-item"><Link to="/Register">Register</Link></li>
+                    <li   className="nav-item"><Link to="/Branches">Branches</Link></li>
                 </ul>
             </nav>
             <div   className="main">
@@ -24,7 +27,7 @@ function Home() {
                     <h1>Welcome to RGUKT Library.....</h1>
                 </div>
                 <br />
-                <button type="submit "   className="login_button " >LOGIN</button>
+                <button type="submit "   className="login_button " ><Link to="/Login">LOGIN</Link></button>
 
             </div></>
     )

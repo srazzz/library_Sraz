@@ -13,23 +13,26 @@ body {
 }
 h1{
     color:black;
+    
 }
 label {
     color:black;
+    font-size:13px;
 }
 .background{
     background-image: url("../images/register.jpg");
-    
+    overflow: hidden;
 }
 /* Add padding to container elements */
 .container {
-    padding: 20px;
-    padding-top:0%;
+    padding: 15px;
+    padding-top:50%;
     width: 500px;
     left: 40%;
+    overflow: hidden;
     margin-left: 5%;
     margin-top: 0%;
-    position: relative;
+    
     transform: translate(-50%, -50%);
     border: 3px solid black;
     border-radius: 18px;
@@ -44,7 +47,7 @@ label {
 input[type=text],
 input[type=password] {
     width: 100%;
-    padding: 15px;
+    padding: 5px;
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
@@ -54,7 +57,7 @@ input[type=password] {
 
 select {
     width: 18%;
-    padding: 15px;
+    padding: 5px;
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
@@ -64,7 +67,7 @@ select {
 
 input[type=phone] {
     width: 81%;
-    padding: 15px;
+    padding: 5px;
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
@@ -88,8 +91,8 @@ button {
     border: solid black 3px;
     cursor: pointer;
     width: 20%;
-    margin-left :40%;
-    padding : 2% 56% 2% 5%;
+    margin-left :30%;
+    padding : 2% 23% 2% 23%;
     opacity: 0.9;
     font-size: 16px;
     font-family: Montserrat, Arial, Helvetica, sans-serif;

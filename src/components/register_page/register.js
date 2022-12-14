@@ -63,7 +63,7 @@ function Register() {
             <form >
                 {/* Form to register into the library if they are new */}
                 <h1>Register</h1>
-                <br />
+                
                 <div classNmae="form-control">
                     <label for="email"><b>College ID</b></label>
                     <input type="text" name="idNumber" placeholder="Enter your ID number" onChange={handleInput} />

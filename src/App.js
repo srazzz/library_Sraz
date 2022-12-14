@@ -2,7 +2,7 @@ import { Home, LoginPage, About, Feedback, Register, LibraryPage } from "./compo
 // imported different pages to display in one single page
 import React from 'react'
 import './App.css';
-
+import { BrowserRouter as Router,Routes ,Route} from 'react-router-dom';
 const branches_data = [
   {
     branch: "CSE"
@@ -36,12 +36,21 @@ const branches_data = [
 function App() {
   return (
     <>
-      <Home />
-      <LoginPage />
-      <LibraryPage branches_data={branches_data} />
-      <Feedback />
-      <About />
-      <Register />
+     <Router>
+      
+      <Routes>
+       <Route path="/" element={<Home/>}/>
+       {/* <Route path="/branches" element={<Brachespage/>}/> */}
+       <Route path="/about" element={<About/>}/>
+       <Route path="/Login" element={<LoginPage/>}/>
+       <Route path="/Feedback" element={<Feedback/>}/>
+       <Route path="/Register" element={<Register/>}/>
+       <Route path="/Branches" element={<LibraryPage branches_data ={branches_data}/>}/>
+       {/* <Route path="/contactpage"   element={<Contactpage />}/> */}
+       {/* <Route path="/angular"  element={<Angular_fun/>}/> */}
+       {/* <Route path="/node"  element={<Node_fun/>}/> */}
+       </Routes>
+    </Router>
     </>
   );
 }
