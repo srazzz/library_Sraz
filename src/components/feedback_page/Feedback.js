@@ -1,17 +1,40 @@
 import React from 'react';
-import './contact.css'
+import './feedback.css'
+// function InputDetails (props)
+//  {
+//     return(
+//         <div class="contact"> 
+//         <div class="contact-form">
+//             {props.data.map((item) =>
+//             <label for={item.label_for}>
+//             <span class="input-name">
+//                 {item.name_of_entry}
+//             </span>
+//             {if(item.label_for === "project-info"){
+//                 <textarea type="text" name={item.name} id={item.id} className={item.class} > </textarea>
+//             }
+//             else{
+//                 <input type="text" name={item.name} id={item.id} className={item.class} />
+//             }    
+//             }
+//                     <input type="text" name={item.name} id={item.id} className={item.class} />
+//             </label>
+//             )}
+//         </div>
+//         </div>
+//     )
+//  }
 /**
  * displays the feedback page for the site
  * @returns feedback page
  */
-function Contact() {
+function Feedback() {
     return (
         <div class="contact">
             <h2 class="contact-title">
                 Do you have a Feedback?or Ideas to improve.?<br />
-
-            </h2>
-            <div class="contact-form">
+                </h2>
+                <div class="contact-form">
                 <label for="name">
                     <span class="input-name">
                         Name:
@@ -31,10 +54,11 @@ function Contact() {
                     <textarea name="project-info" id="project-info" class="project-info"></textarea>
                 </label>
                 <button class="btn send-btn">
-                    Send
+                     Send
                 </button>
             </div>
-        </div>
+            </div>
+       
     )
 }
-export default Contact;
+export default Feedback;
