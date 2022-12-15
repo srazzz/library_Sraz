@@ -9,7 +9,7 @@ function About() {
     return (
         <>
             <section className="about-details section-padding">
-                <div className="container">
+                <div className="container1">
                             <img className="img-responsive" src={imgthis} alt="a" />
                 </div>
 

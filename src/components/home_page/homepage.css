@@ -8,7 +8,7 @@
     color:white;
    display: flex;
    justify-content: center;
-   background-image: url("../images/backgroundimage.png");
+   background-image:url("../images/backgroundimage.png") ;
 }
 h1 {
     color :rgb(241, 237, 237);

@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-}
+
 .section-padding {
     padding: 60px 0;
 }
@@ -13,9 +11,13 @@ body {
     background: #3e2bc5;
     overflow-x: hidden;
 }
-.container img{
-    width:100%;
-   
+.container1 img{
+    width:30%;
+    margin-left :30%;
+    border-radius :20px;
+    border : solid black 4px;
+    background-image: linear-gradient(rgba(26, 24, 24, 0.8), rgba(24, 23, 23, 0.8));
+    justify-content: center;
 }
 .mb20{
     margin-left:15%;

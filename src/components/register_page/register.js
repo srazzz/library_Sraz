@@ -59,7 +59,7 @@ function Register() {
     return (
 		<>
         <div className='background'>
-        <div className="container">
+        <div className="container2">
             <form >
                 {/* Form to register into the library if they are new */}
                 <h1>Register</h1>

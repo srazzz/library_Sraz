@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from "react";
 import {Link} from 'react-router-dom'
+import LibraryPage from '../branches_page/librarypage';
 // import LibraryPage from '../branches_page/librarypage';
 // import { Navigate } from "react-router-dom";
 import "./login.css"
@@ -43,6 +44,11 @@ function LoginPage() {
     const handleLogin = (event) => {
 		setFormErrors(validate(formValues))
 		event.preventDefault()
+        if (formErrors.length === 0) {
+            return <LibraryPage/>;
+          }
+        //   return <GuestGreeting />;
+        // }
 		// if(validate(formValues).length === 0){		//not working
 		// 	setFormValues(initialValues)
         // console.log('redirect.............--------------------========................................................---------')
@@ -54,7 +60,7 @@ function LoginPage() {
         <>
             <div className="whole-page">
                 <div class="login-page">
-                    <div class="form">
+                    <div class="form_login">
                         {/* register form  */}
                         <h1>LIBRARIAN LOGIN</h1>
                         <br/>
