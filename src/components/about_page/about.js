@@ -8,8 +8,8 @@ import imgthis from '../images/building.jpg'
 function About() {
     return (
         <>
-            <section className="about-details section-padding">
-                <div className="container1">
+            <section className="about-details_section-padding">
+                <div className="container_about">
                             <img className="img-responsive" src={imgthis} alt="a" />
                 </div>
 

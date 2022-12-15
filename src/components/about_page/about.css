@@ -10,8 +10,12 @@ body {
     line-height: 30px;
     background: #3e2bc5;
     overflow-x: hidden;
+    background :black;
 }
-.container1 img{
+.about-details_section-padding{
+    background:rgb(15, 15, 15);
+}
+.container_about img{
     width:30%;
     margin-left :30%;
     border-radius :20px;

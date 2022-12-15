@@ -17,6 +17,9 @@ function Home() {
                 <div className="nav-menu"> <Link to="/about"><button className="about_button">AboutUs</button></Link></div>
                 <div className="nav-menu"><Link to="/Books"><button className="books_button">Books</button></Link></div>
                 <div className="nav-menu"><Link to="/Register"><button className="register_button">Register</button></Link></div>
+                <div className="nav-menu"><Link to="/Feedback"><button className="register_button">Feedback</button></Link></div>
+                <div className="nav-menu"><Link to="/Branches"><button className="register_button">Branches</button></Link></div>
+                {/* <div className="nav-menu"><Link to="/Register"><button className="register_button">Register</button></Link></div> */}
 
 
 

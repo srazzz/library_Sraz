@@ -3,9 +3,9 @@ import './librarypage.css';
 function Branches(props) {
 	return (
 		<div class="maincontainer">
-			<div class="Button1">
+			<div class="Button_books">
 				{props.data.map((item) =>
-					<button class="button2">{item.branch}</button>
+					<button class="button_books_button">{item.branch}</button>
 				)}
 			</div>
 		</div>

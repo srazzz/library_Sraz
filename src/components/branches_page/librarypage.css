@@ -14,20 +14,27 @@ body {
   background-color: black;
 }
 
-.button1 {
-  margin-top: 5%;
+.Button_books {
+margin-left:10%;
   background-color: rgb(0, 0, 0);
   padding: 10px 10px 10px 7px;
   color: whitesmoke;
   width : 100%;
   padding: left 30px;
 }
-.button2{
+.button_books_button{
   align-content: center;
   margin-left:15%;
   width:50%;
   justify-content: center;
+  padding:2% 2% 2% 2%;
+  margin-bottom:1%;
+  border-radius:20px;
+  opacity:0.7;
+
 }
-.button:hover {
- background-color: yellow;
+
+.button_books_button:hover {
+ background-color: white;
+ opacity:1.2;
 }
