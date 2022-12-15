@@ -1,4 +1,4 @@
-import { Home, LoginPage, About, Feedback, Register, LibraryPage ,Books} from "./components"
+import { Home, LoginPage, About, Feedback, Register, LibraryPage ,Books , Librarian_homepage} from "./components"
 // imported different pages to display in one single page
 import React from 'react'
 import './App.css';
@@ -47,9 +47,8 @@ function App() {
        <Route path="/Register" element={<Register/>}/>
        <Route path="/Books" element={<Books/>}/>
        <Route path="/Branches" element={<LibraryPage branches_data ={branches_data}/>}/>
-       {/* <Route path="/contactpage"   element={<Contactpage />}/> */}
-       {/* <Route path="/angular"  element={<Angular_fun/>}/> */}
-       {/* <Route path="/node"  element={<Node_fun/>}/> */}
+       <Route path="/Librarian_homepage" element={<Librarian_homepage />}/>
+
        </Routes>
     </Router>
     </>
