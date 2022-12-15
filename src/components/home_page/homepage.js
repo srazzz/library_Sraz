@@ -14,21 +14,22 @@ function Home() {
         <>
             <nav   className="navbar">
                 <img src={logoimg} alt="rgukt logo" />
-                <ul   className="nav-menu">
-                    <li   className="nav-item"><Link to="/about">About</Link></li>
-                    <li   className="nav-item"><Link to="Feedback">Feedback</Link></li>
+                <div   className="nav-menu">                
+                    <Link to="/about"><button  className="about_button">About Us</button></Link>
+                    {/* <li   className="nav-item"><Link to="Feedback">Feedback</Link></li> */}
                     {/* navlink   class li is in  */}
-                    <li   className="nav-item"><Link to="/Register">Register</Link></li>
+                    {/* <li   className="nav-item"><Link to="/Register">Register</Link></li>
                     <li   className="nav-item"><Link to="/Branches">Branches</Link></li>
-                </ul>
+                    <li   className="nav-item"><Link to="/Books">Branches</Link></li> */}
+                </div>
             </nav>
             <div   className="main">
                 <div   className="content">
                     <h1>Welcome to RGUKT Library.....</h1>
                 </div>
                 <br />
-                <button type="submit "   className="login_button " ><Link to="/Login">LOGIN</Link></button>
-
+                <Link to="/Login"><button type="submit "   className="login_button " >LOGIN</button></Link>
+                <Link to="/Login"><button type="submit "   className="librarian_login_button " >LIBRARIAN LOGIN</button></Link>
             </div></>
     )
 }

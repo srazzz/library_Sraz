@@ -4,5 +4,5 @@ import About from './about_page/about';
 import Feedback from "./feedback_page/Feedback"
 import Register from './register_page/register';
 import LibraryPage from './branches_page/librarypage'
-
-export {Home , LoginPage , About , Feedback, Register ,LibraryPage }
+import Books from "./books_page/Books"
+export {Home , LoginPage , About , Feedback, Register ,LibraryPage ,Books}

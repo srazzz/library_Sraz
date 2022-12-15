@@ -7,14 +7,23 @@
   margin:solid;
 }
 .whole-page{
-  background-image: url("../images/loginimage.jpg");
- 
-  border-image-repeat: none;
+  /* background-image: url("../images/keyboard.jpg"); */
+  width:100vw;
+  height:100vw;
+  position:fixed;
+  background-image: linear-gradient(rgba(26, 24, 24, 0.5), rgba(24, 23, 23, 0.5)), url("../images/keyboard.jpg");
+  /* background: rgba(19, 22, 20, 0.6); */
 }
 
 .error{
   color:red;
   font-size: 12px;
+}
+form label{
+  font-size:15px;
+  color:black;
+  font:bolder;
+  font-weight: 300;
 }
 .form {
   background-color: rgb(30, 30, 30, 0.4);

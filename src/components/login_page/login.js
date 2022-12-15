@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState } from "react";
+import {Link} from 'react-router-dom'
 // import LibraryPage from '../branches_page/librarypage';
+// import { Navigate } from "react-router-dom";
 import "./login.css"
 
 /**
@@ -19,7 +21,7 @@ function LoginPage() {
     }
 
     const validate = (formValues) => {
-		console.log(formErrors,formValues)
+		// console.log(formErrors,formValues)
 		const errors = {}
         if (!formValues.idNumber) {
 
@@ -41,10 +43,12 @@ function LoginPage() {
     const handleLogin = (event) => {
 		setFormErrors(validate(formValues))
 		event.preventDefault()
-		if(validate(formValues).length === 0){		//not working
-			setFormValues(initialValues)
+		// if(validate(formValues).length === 0){		//not working
+		// 	setFormValues(initialValues)
+        // console.log('redirect.............--------------------========................................................---------')
+        //     return <Navigate to="/Branches"/>
             
-		}
+		// }
 	}
     return (
         <>
@@ -52,7 +56,7 @@ function LoginPage() {
                 <div class="login-page">
                     <div class="form">
                         {/* register form  */}
-                        <h1>LOGIN</h1>
+                        <h1>LIBRARIAN LOGIN</h1>
                         <br/>
                         {/* if already avean account login redirecting  */}
                         <form class="login-form">
@@ -66,12 +70,14 @@ function LoginPage() {
                                 <input type="password" id="password" name="password" placeholder="Enter password" onChange={handleInput}  />
                                 <div className="error">{formErrors.password}</div>
                             </div>
-                            <div className="buttonlogin"><button className="buttonlogin"  type="submit" onClick={handleLogin}>submit</button></div>
+                            <div>
+                                <button className="buttonlogin"  type="submit" onClick={handleLogin}>submit</button>
+                                </div>
                            
-                            <p class="message">Not registered? <a href="register.html">Create an account</a></p>
-                        </form>
+                            <p class="message">Not registered? <Link to="/Register">Create an account</Link></p>
+                        </form></div>
                     </div>
-                </div></div>
+                </div>
         </>
     )
 }
