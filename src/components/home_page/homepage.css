@@ -10,8 +10,8 @@
    justify-content: center;
    background-image:url("../images/backgroundimage.png") ;
 }
-h1 {
-    color :rgb(241, 237, 237);
+.main .content h1 {
+    color :rgb(12, 12, 12);
     margin-left :8%;
     margin-top:15%;
     background-color: white;

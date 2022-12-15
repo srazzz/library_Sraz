@@ -18,9 +18,9 @@ function Home() {
                     <Link to="/about"><button  className="about_button">About Us</button></Link>
                     {/* <li   className="nav-item"><Link to="Feedback">Feedback</Link></li> */}
                     {/* navlink   class li is in  */}
-                    {/* <li   className="nav-item"><Link to="/Register">Register</Link></li>
-                    <li   className="nav-item"><Link to="/Branches">Branches</Link></li>
-                    <li   className="nav-item"><Link to="/Books">Branches</Link></li> */}
+                    <li   className="nav-item"><Link to="/Register">Register</Link></li>
+                    {/* <li   className="nav-item"><Link to="/Branches">Branches</Link></li>*/}
+                     <li   className="nav-item"><Link to="/Books">Books</Link></li> 
                 </div>
             </nav>
             <div   className="main">

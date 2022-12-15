@@ -57,10 +57,10 @@ function Register() {
 	}
 
     return (
-		<>
-        <div className='background'>
-        <div className="container2">
-            <form >
+		
+        <div className='back'>
+        
+            <form className="container"><div >
                 {/* Form to register into the library if they are new */}
                 <h1>Register</h1>
                 
@@ -92,12 +92,12 @@ function Register() {
 
                 <div className="clearfix">
                     <a href="librarypage.html">
-                        <button type="submit" className="btn" onClick={handleSubmit}>Sign Up</button></a>
-                </div>
+                        <button type="submit" className="btn" onClick={handleSubmit}>SignUp</button></a>
+                </div></div>
 
-            </form> </div></div>
+            </form> </div>
 
-			</>
+
     )
 }
 export default Register;

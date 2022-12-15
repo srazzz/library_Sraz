@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from "react";
 import {Link} from 'react-router-dom'
-import LibraryPage from '../branches_page/librarypage';
+// import LibraryPage from '../branches_page/librarypage';
 // import LibraryPage from '../branches_page/librarypage';
 // import { Navigate } from "react-router-dom";
 import "./login.css"
@@ -44,9 +44,10 @@ function LoginPage() {
     const handleLogin = (event) => {
 		setFormErrors(validate(formValues))
 		event.preventDefault()
-        if (formErrors.length === 0) {
-            return <LibraryPage/>;
-          }
+        // {(formErrors.length === 0) ?
+            
+        //      '<Link to ="/LibraryPage " ><LibraryPage/></Link>': null
+        //   }
         //   return <GuestGreeting />;
         // }
 		// if(validate(formValues).length === 0){		//not working

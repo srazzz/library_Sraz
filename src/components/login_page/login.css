@@ -19,7 +19,7 @@
   color:red;
   font-size: 12px;
 }
-form_login label{
+.form_login label{
   font-size:15px;
   color:black;
   font:bolder;
@@ -45,7 +45,7 @@ form_login label{
   font-family: "Roboto", sans-serif;
   background: #f2f2f2;
   width: 100%;
-  margin: 0 0 ;
+  
   padding :2% 2% 2% 2%;
   box-sizing: border-box;
   font-size: 14px;
