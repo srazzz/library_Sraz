@@ -86,7 +86,7 @@ input{
 
 
 /* Set a style for all buttons */
-button {
+.btn{
     background-color: #292929;
     color: white;
     border: solid black 3px;
@@ -102,10 +102,10 @@ button {
     border-radius: 10px;
 }
 
-button:hover {
+.btn:hover {
     opacity: 1;
 }
-.button-login{
+.btn-login{
     color:#ccc;
 }
 

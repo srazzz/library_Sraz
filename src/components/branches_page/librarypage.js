@@ -5,7 +5,7 @@ function Branches(props) {
 		<div class="maincontainer">
 			<div class="Button1">
 				{props.data.map((item) =>
-					<button class="button">{item.branch}</button>
+					<button class="button2">{item.branch}</button>
 				)}
 			</div>
 		</div>
