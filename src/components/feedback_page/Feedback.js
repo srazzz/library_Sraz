@@ -1,30 +1,6 @@
 import React from 'react';
 import './feedback.css'
-// function InputDetails (props)
-//  {
-//     return(
-//         <div class="contact"> 
-//         <div class="contact-form">
-//             {props.data.map((item) =>
-//             <label for={item.label_for}>
-//             <span class="input-name">
-//                 {item.name_of_entry}
-//             </span>
-//             {if(item.label_for === "project-info"){
-//                 <textarea type="text" name={item.name} id={item.id} className={item.class} > </textarea>
-//             }
-//             else{
-//                 <input type="text" name={item.name} id={item.id} className={item.class} />
-//             }    
-//             }
-//                     <input type="text" name={item.name} id={item.id} className={item.class} />
-//             </label>
-//             )}
-//         </div>
-//         </div>
-//     )
-//  }
-/**
+/*
  * displays the feedback page for the site
  * @returns feedback page
  */
