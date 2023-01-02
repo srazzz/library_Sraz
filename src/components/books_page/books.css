@@ -26,7 +26,7 @@
   align-items: center;
   justify-content: space-around;
   margin-bottom: 2%;
-
+  position: fixed;
 }
 
 a {
@@ -103,9 +103,13 @@ li {
 body {
   font-family: "Outfit", sans-serif;
   text-transform: capitalize;
-  background-color: rgba(23, 197, 197, 0.568);
+  /* background-color: rgba(23, 197, 197, 0.568); */
+
 }
 
+.container_of_books {
+  background-image: url('../images/library_image.jpg');
+}
 .flex {
   display: flex;
   justify-content: center;
